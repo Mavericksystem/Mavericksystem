@@ -4,9 +4,6 @@
 Backend Engineer • Fullstack • AI/ML
 </h3>
 
-<p align="center">
-Building scalable systems that turn raw data into intelligence, predictions and automation.
-</p>
 
 ---
 
@@ -16,9 +13,9 @@ Building scalable systems that turn raw data into intelligence, predictions and 
 
 ## ⚡ About Me
 
-- Backend engineer with security first scalability next moto
-- Building production grade Fullstack AI and data platforms
-- Interested in web dev, distributed systems, RAG, inference pipelines and cloud architecture
+- Backend Engineer with a "Security First, Scalability Next" philosophy
+- Building production grade Fullstack AI and Data platforms
+- Working across web development, distributed systems, RAG, inference pipelines & cloud architecture
 - Based in Bengaluru, India
 
 ---
