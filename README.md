@@ -16,9 +16,9 @@ Building scalable systems that turn raw data into intelligence, predictions and 
 
 ## ⚡ About Me
 
-- Backend engineer focused on scalable systems and ML infrastructure
+- Backend engineer with security first scalability next moto
 - Building production grade Fullstack AI and data platforms
-- Interested in distributed systems, RAG, inference pipelines and cloud architecture
+- Interested in web dev, distributed systems, RAG, inference pipelines and cloud architecture
 - Based in Bengaluru, India
 
 ---
