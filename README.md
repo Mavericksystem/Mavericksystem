@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Moinaktar Shaikh</h1>
 
 <h3 align="center">
-Backend Engineer • Fullstack • AI/ML
+AI Engineer • Backend 
 </h3>
 
 
@@ -14,7 +14,7 @@ Backend Engineer • Fullstack • AI/ML
 ## ⚡ About Me
 
 - Backend Engineer with a "Security First, Scalability Next" philosophy
-- Building production grade Fullstack AI and Data platforms
+- Building production grade Agentic AI and Data platforms
 - Working across web development, distributed systems, RAG, inference pipelines & cloud architecture
 - Based in Bengaluru, India
 
