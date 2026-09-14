@@ -1135,7 +1135,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>leonardomso/33-js-concepts</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 16 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">📜 33 JavaScript concepts every developer should know.</div>
@@ -1188,7 +1188,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>thedaviddias/Front-End-Checklist</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 16 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">🗂 The essential checklist for modern web development, for humans and AI agents</div>
@@ -1216,7 +1216,7 @@
                                             <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
                                             <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                                         </svg>
-                                        157
+                                        156
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1235,7 +1235,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>microsoft/Web-Dev-For-Beginners</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 16 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">24 Lessons, 12 Weeks, Get Started as a Web Developer</div>
@@ -1288,7 +1288,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>microsoft/TypeScript</span>
-                                        <span>starred 14 hours ago</span>
+                                        <span>starred 16 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</div>
@@ -1338,7 +1338,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 14 Sept 2026, 10:11:19 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Sept 2026, 12:55:30 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
