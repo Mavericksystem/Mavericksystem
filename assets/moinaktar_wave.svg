@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Hi, I'm Moinaktar Shaikh — AI Backend Engineer">
+  <defs>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:58px;font-weight:600;fill:#3E606F;text-anchor:middle}
+      .subtitle{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:400;fill:#3E606F;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1200" height="320" fill="#3E606F"/>
+  <g>
+    <rect x="-1200" y="-3328" width="3600" height="3600" rx="1620" ry="1620" fill="#FCFFF5">
+      <animateTransform attributeName="transform" type="rotate" values="0 600 -1528;180 600 -1528;360 600 -1528" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+  </g>
+  <g opacity=".5">
+    <rect x="-1200" y="-3232" width="3600" height="3600" rx="1692" ry="1692" fill="#FCFFF5">
+      <animateTransform attributeName="transform" type="rotate" values="0 600 -1432;180 600 -1432;360 600 -1432" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+  </g>
+  <text x="600" y="128" class="title">Hi, I'm Moinaktar Shaikh</text>
+  <text x="600" y="166" class="subtitle">AI Backend Engineer</text>
+</svg>
