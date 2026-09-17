@@ -21,18 +21,31 @@
     <th>Data</th>
   </tr>
   <tr>
-    <td><strong>Languages / IDE</strong></td>
+    <td><strong>Languages</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" />
       <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Domain Knowledge</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Electronics-6B7280?style=flat" />
+      <img src="https://img.shields.io/badge/Web%20Development-2563EB?style=flat" />
+      <img src="https://img.shields.io/badge/Machine%20Learning-16A34A?style=flat" />
+      <img src="https://img.shields.io/badge/Agentic%20AI-7C3AED?style=flat" />
+      <img src="https://img.shields.io/badge/Generative%20AI-DB2777?style=flat" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>CI / CD</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -45,15 +58,15 @@
     </td>
   </tr>
   <tr>
-    <td><strong>AI / ML</strong></td>
+    <td><strong>Frameworks</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
-      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white" />
-      <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat" />
-      <img src="https://img.shields.io/badge/Vector%20Search-0F766E?style=flat" />
-      <img src="https://img.shields.io/badge/LLM%20Inference-111827?style=flat" />
     </td>
   </tr>
   <tr>
@@ -64,8 +77,6 @@
       <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white" />
       <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white" />
       <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" />
       <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" />
