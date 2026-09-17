@@ -6,6 +6,7 @@
   <img src="./assets/moinaktar_banner_display_refined.svg" width="100%" alt="Hi I'm Moinaktar Shaikh — AI Engineer • Backend" />
 </p>
 
+---
 
 ## ⚡ About Me
 
