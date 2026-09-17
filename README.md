@@ -2,9 +2,7 @@
   <img src="./assets/moinaktar_wave.svg" width="100%" alt="Hi, I'm Moinaktar Shaikh — AI Backend Engineer" />
 </p>
 
-<h3 align="center">
-AI Engineer • Backend 
-</h3>
+
 
 ---
 
