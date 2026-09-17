@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/moinaktar_wave.svg" width="100%" alt="Hi, I'm Moinaktar Shaikh — AI Backend Engineer" />
+  <img src="./assets/moinaktar_wave.svg" width="100%" alt="Hi I'm Moinaktar Shaikh — AI Engineer • Backend" />
 </p>
 
 
