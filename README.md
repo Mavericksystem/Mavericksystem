@@ -1,9 +1,10 @@
-<h1 align="center">Hi, I'm Moinaktar Shaikh</h1>
+<p align="center">
+  <img src="./assets/moinaktar_wave.svg" width="100%" alt="Hi, I'm Moinaktar Shaikh — AI Backend Engineer" />
+</p>
 
 <h3 align="center">
 AI Engineer • Backend 
 </h3>
-
 
 ---
 
@@ -64,8 +65,6 @@ AI Engineer • Backend
     <img src="https://leetcard.jacoblin.cool/Moinaktar?theme=dark" width="49%" />
   </a>
 </p>
-
-
 
 ---
 
