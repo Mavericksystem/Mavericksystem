@@ -1,77 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="320" viewBox="0 0 1200 320"
-     role="img" aria-label="Hi I'm Moinaktar Shaikh — AI Engineer • Backend">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Hi I'm Moinaktar Shaikh — AI Engineer • Backend">
   <defs>
     <style>
-      .intro {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 25px;
-        font-weight: 400;
-        letter-spacing: 5px;
-        fill: #3E606F;
-        text-anchor: middle;
-      }
-
-      .name {
-        font-family: "Copperplate", "Bodoni 72", Georgia, serif;
-        font-size: 76px;
-        font-style: italic;
-        font-weight: 700;
-        letter-spacing: 2px;
-        fill: #3E606F;
-        text-anchor: middle;
-      }
-
-      .role {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 2px;
-        fill: #3E606F;
-        text-anchor: middle;
-      }
+      .intro{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400;letter-spacing:5px;fill:#3E606F;text-anchor:middle}
+      .name{font-family:Copperplate,"Bodoni 72",Georgia,serif;font-size:76px;font-style:italic;font-weight:700;letter-spacing:2px;fill:#3E606F;text-anchor:middle}
+      .role{font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:400;letter-spacing:2px;fill:#3E606F;text-anchor:middle}
     </style>
   </defs>
-
   <rect width="1200" height="320" fill="#3E606F"/>
-
   <g>
-    <rect x="-1200" y="-3328"
-          width="3600" height="3600"
-          rx="1620" ry="1620"
-          fill="#FCFFF5">
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        values="0 600 -1528;180 600 -1528;360 600 -1528"
-        dur="10s"
-        repeatCount="indefinite"
-        calcMode="linear"/>
+    <rect x="-1200" y="-3328" width="3600" height="3600" rx="1620" ry="1620" fill="#FCFFF5">
+      <animateTransform attributeName="transform" type="rotate" values="0 600 -1528;180 600 -1528;360 600 -1528" dur="10s" repeatCount="indefinite" calcMode="linear"/>
     </rect>
   </g>
-
   <g opacity=".5">
-    <rect x="-1200" y="-3232"
-          width="3600" height="3600"
-          rx="1692" ry="1692"
-          fill="#FCFFF5">
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        values="0 600 -1432;180 600 -1432;360 600 -1432"
-        dur="10s"
-        repeatCount="indefinite"
-        calcMode="linear"/>
+    <rect x="-1200" y="-3232" width="3600" height="3600" rx="1692" ry="1692" fill="#FCFFF5">
+      <animateTransform attributeName="transform" type="rotate" values="0 600 -1432;180 600 -1432;360 600 -1432" dur="10s" repeatCount="indefinite" calcMode="linear"/>
     </rect>
   </g>
-
   <text x="600" y="91" class="intro">Hi I'm</text>
   <text x="600" y="177" class="name">Moinaktar Shaikh</text>
-  <text x="600" y="217" class="role">
-    <tspan>AI </tspan><tspan font-size="25px" font-weight="500">E</tspan><tspan>ngineer</tspan>
-    <tspan dx="10">•</tspan>
-    <tspan dx="10" font-size="25px" font-weight="500">B</tspan><tspan>ackend</tspan>
-  </text>
-
+  <text x="600" y="217" class="role"><tspan>AI </tspan><tspan font-size="25px" font-weight="500">E</tspan><tspan>ngineer</tspan><tspan dx="10">•</tspan><tspan dx="10" font-size="25px" font-weight="500">B</tspan><tspan>ackend</tspan></text>
 </svg>
