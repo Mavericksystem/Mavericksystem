@@ -55,8 +55,6 @@ AI Engineer • Backend
   </a>
 </p>
 
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
