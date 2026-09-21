@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="419.07998102955867" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="419.07998102955867" y="0" width="29.65898449055037" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="448.73896552010905" y="0" width="4.80472811560933" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="453.5436936357184" y="0" width="4.492119932410372" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="458.03581356812873" y="0" width="1.1148163536204594" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="459.1506299217492" y="0" width="0.49408830934392706" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="459.6447182310931" y="0" width="0.3017533487761636" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="459.9464715798693" y="0" width="0.053528420130728165" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="418.4866885400695" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="418.4866885400695" y="0" width="29.61699619824185" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="448.10368473831136" y="0" width="5.1156768957368035" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="453.2193616340482" y="0" width="4.819232637313184" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="458.0385942713614" y="0" width="1.1132381055539737" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="459.15183237691537" y="0" width="0.49338882739215745" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="459.6452212043075" y="0" width="0.3013261558688163" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="459.94654736017634" y="0" width="0.05345263982368567" height="8" fill="#012456"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -45,15 +45,15 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        JavaScript
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         TypeScript
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        JavaScript
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -126,7 +126,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~12.86
+                            Average per day at ~13.01
                         </div>
                     </section>
                 </div>
@@ -1061,9 +1061,9 @@
                                 <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.12 1.7,2.12 z"/>
                             </g>
                             <g transform="translate(-8.5, 10.58)">
-                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.42 0,1.42 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.42 1.7,2.42 z"/>
+                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.42 0,1.42 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.42 1.7,2.42 z"/>
                             </g>
                             <g transform="translate(-10.2, 11.879999999999999)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1093,9 +1093,9 @@
                                 <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.48 1.7,2.48 z"/>
                             </g>
                             <g transform="translate(-6.8, 8.620000000000001)">
-                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.38 0,2.38 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.38 1.7,3.38 z"/>
+                                <path fill="#30a14e" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.38 0,2.38 z"/>
+                                <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.38 1.7,3.38 z"/>
                             </g>
                             <g transform="translate(-8.5, 10.76)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1109,10 +1109,10 @@
                             </g>
                         </g>
                         <g transform="translate(44.199999999999996, 26)">
-                            <g transform="translate(0, 5.82)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.18 0,1.18 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.18 1.7,2.18 z"/>
+                            <g transform="translate(0, 4.14)">
+                                <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.86 0,2.86 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.86 1.7,3.86 z"/>
                             </g>
                         </g>
                     </g>
@@ -1135,7 +1135,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>donnemartin/system-design-primer</span>
-                                        <span>starred 22 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</div>
@@ -1175,7 +1175,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                         </svg>
-                                        726
+                                        727
                                     </div>
                                 </div>
                             </section>
@@ -1188,7 +1188,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>DavidHDev/react-bits</span>
-                                        <span>starred 22 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An open source collection of animated, interactive &amp; fully customizable React components for building memorable websites.</div>
@@ -1209,7 +1209,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                         </svg>
-                                        47.7k
+                                        47.8k
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1241,7 +1241,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>brillout/awesome-react-components</span>
-                                        <span>starred 22 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Curated List of React Components &amp; Libraries.</div>
@@ -1288,7 +1288,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>mui/material-ui</span>
-                                        <span>starred 22 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.</div>
@@ -1338,7 +1338,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 21 Sept 2026, 10:12:01 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 21 Sept 2026, 23:40:43 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
