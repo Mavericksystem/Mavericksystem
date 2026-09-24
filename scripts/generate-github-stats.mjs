@@ -109,8 +109,7 @@ const languageRows = languages.map(([name, count], index) => {
   return [
     '<text x="855" y="' + y + '" class="s">' + escapeXml(name) + "</text>",
     '<rect x="855" y="' + (y + 8) + '" width="235" height="7" rx="4" fill="#21363d"/>',
-    '<rect x="855" y="' + (y + 8) + '" width="0" height="7" rx="4" fill="' + colors[index] + '">',
-    '<animate attributeName="width" values="0;' + width + ';' + width + '" dur="0s" repeatCount="1" begin="' + (index * 0.2) + 's"/>',
+    '<rect x="855" y="' + (y + 8) + '" width="' + width + '" height="7" rx="4" fill="' + colors[index] + '">',
     "</rect>"
   ].join("");
 }).join("");
