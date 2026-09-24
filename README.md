@@ -112,7 +112,7 @@
 
 <p align="center">
   <a href="https://leetcode.com/u/Moinaktar/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/Moinaktar?theme=dark" width="49%" alt="LeetCode stats" />
+    <img src="./assets/moinaktar_leetcode_activity_animated.svg" width="100%" alt="LeetCode activity" />
   </a>
 </p>
 
