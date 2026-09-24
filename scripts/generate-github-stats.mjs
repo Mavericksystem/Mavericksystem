@@ -17,7 +17,7 @@ query($login: String!) {
       }
     }
   }
-}\`;
+}`;
 
 const res = await fetch("https://api.github.com/graphql", {
   method: "POST",
