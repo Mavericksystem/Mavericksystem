@@ -99,7 +99,7 @@ const escapeXml = value =>
     '"': "&quot;"
   }[character]));
 
-const colors = ["#35d0b0", "#69e6c6", "#9beed9", "#b9f5e7"];
+const colors = ["#B8A06A", "#C4BCA8", "#D9D4C7", "#E6C878"];
 const maxLanguage = Math.max(1, ...languages.map(([, count]) => count));
 
 const languageRows = languages.map(([name, count], index) => {
@@ -108,7 +108,7 @@ const languageRows = languages.map(([name, count], index) => {
 
   return [
     '<text x="855" y="' + y + '" class="s">' + escapeXml(name) + "</text>",
-    '<rect x="855" y="' + (y + 8) + '" width="235" height="7" rx="4" fill="#21363d"/>',
+    '<rect x="855" y="' + (y + 8) + '" width="235" height="7" rx="4" fill="#1A1E23"/>',
     '<rect x="855" y="' + (y + 8) + '" width="' + width + '" height="7" rx="4" fill="' + colors[index] + '">',
     "</rect>"
   ].join("");
@@ -122,16 +122,16 @@ const svg = [
   escapeXml(username),
   '">',
   '<defs>',
-  '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10232b"/><stop offset="1" stop-color="#3E606F"/></linearGradient>',
-  '<linearGradient id="chart" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#35d0b0" stop-opacity=".03"/><stop offset="1" stop-color="#35d0b0" stop-opacity=".38"/></linearGradient>',
-  '<style>.h{font:700 25px Georgia,serif;fill:#FCFFF5;letter-spacing:3px}.n{font:700 30px Arial,sans-serif;fill:#FCFFF5}.l{font:500 11px Arial,sans-serif;fill:#a9c0c8;letter-spacing:2px}.s{font:11px Arial,sans-serif;fill:#8faab4}</style>',
+  '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070A"/><stop offset="1" stop-color="#12151A"/></linearGradient>',
+  '<linearGradient id="chart" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#B8A06A" stop-opacity=".03"/><stop offset="1" stop-color="#B8A06A" stop-opacity=".38"/></linearGradient>',
+  '<style>.h{font:700 25px Georgia,serif;fill:#F2EFE7;letter-spacing:3px}.n{font:700 30px Arial,sans-serif;fill:#F2EFE7}.l{font:500 11px Arial,sans-serif;fill:#A69F91;letter-spacing:2px}.s{font:11px Arial,sans-serif;fill:#8C8574}</style>',
   '</defs>',
   '<rect width="1200" height="430" rx="22" fill="url(#bg)"/>',
-  '<rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#FCFFF5" stroke-opacity=".12"/>',
+  '<rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#F2EFE7" stroke-opacity=".12"/>',
   '<text x="55" y="55" class="h">GITHUB ACTIVITY</text>',
-  '<circle cx="1070" cy="48" r="4" fill="#35d0b0"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>',
+  '<circle cx="1070" cy="48" r="4" fill="#B8A06A"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>',
   '<text x="1085" y="53" class="s">UPDATED DAILY</text>',
-  '<g fill="#07151b" fill-opacity=".32" stroke="#FCFFF5" stroke-opacity=".10">',
+  '<g fill="#0B0E13" fill-opacity=".32" stroke="#F2EFE7" stroke-opacity=".10">',
   '<rect x="45" y="82" width="245" height="82" rx="14"/>',
   '<rect x="305" y="82" width="245" height="82" rx="14"/>',
   '<rect x="565" y="82" width="245" height="82" rx="14"/>',
@@ -145,14 +145,14 @@ const svg = [
   '<text x="588" y="148" class="n">' + stars.toLocaleString() + '</text>',
   '<text x="848" y="113" class="l">CURRENT STREAK</text>',
   '<text x="848" y="148" class="n">' + currentStreak + ' DAYS</text>',
-  '<rect x="45" y="190" width="765" height="195" rx="16" fill="#07151b" fill-opacity=".25" stroke="#FCFFF5" stroke-opacity=".10"/>',
+  '<rect x="45" y="190" width="765" height="195" rx="16" fill="#0B0E13" fill-opacity=".25" stroke="#F2EFE7" stroke-opacity=".10"/>',
   '<text x="70" y="218" class="l">CONTRIBUTION FLOW · LAST 30 DAYS</text>',
-  '<g stroke="#FCFFF5" stroke-opacity=".07">',
+  '<g stroke="#F2EFE7" stroke-opacity=".07">',
   '<line x1="70" y1="245" x2="785" y2="245"/><line x1="70" y1="285" x2="785" y2="285"/><line x1="70" y1="325" x2="785" y2="325"/><line x1="70" y1="365" x2="785" y2="365"/>',
   '</g>',
   '<path d="' + line + ' L785 365 L70 365Z" fill="url(#chart)"/>',
-  '<path d="' + line + '" fill="none" stroke="#35d0b0" stroke-width="3" stroke-linecap="round" stroke-dasharray="1200" stroke-dashoffset="1200"><animate attributeName="stroke-dashoffset" from="1200" to="0" dur="5s" repeatCount="indefinite"/></path>',
-  '<rect x="830" y="190" width="325" height="195" rx="16" fill="#07151b" fill-opacity=".25" stroke="#FCFFF5" stroke-opacity=".10"/>',
+  '<path d="' + line + '" fill="none" stroke="#B8A06A" stroke-width="3" stroke-linecap="round" stroke-dasharray="1200" stroke-dashoffset="1200"><animate attributeName="stroke-dashoffset" from="1200" to="0" dur="5s" repeatCount="indefinite"/></path>',
+  '<rect x="830" y="190" width="325" height="195" rx="16" fill="#0B0E13" fill-opacity=".25" stroke="#F2EFE7" stroke-opacity=".10"/>',
   '<text x="855" y="218" class="l">LANGUAGES</text>',
   languageRows,
   '</svg>'
