@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Moinaktar Shaikh">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07112f"/><stop offset=".55" stop-color="#10072d"/><stop offset="1" stop-color="#220a45"/></linearGradient>
+<linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#27e7ff"/><stop offset=".52" stop-color="#168cff"/><stop offset="1" stop-color="#7b4dff"/></linearGradient>
+<linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6df3ff"/><stop offset=".5" stop-color="#3aa8ff"/><stop offset="1" stop-color="#a67cff"/></linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+<style>.name{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:78px;font-weight:650;letter-spacing:-3px;fill:url(#word)}.sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:500;letter-spacing:7px;fill:#91b8d2}</style>
+</defs>
+<rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+<ellipse cx="610" cy="150" rx="420" ry="110" fill="#2549ff" opacity=".10" filter="url(#soft)"/>
+<rect x="1" y="1" width="1198" height="298" rx="27" fill="none" stroke="#79dfff" stroke-opacity=".10"/>
+<g transform="translate(255 74)" filter="url(#glow)">
+<path d="M0 12 Q0 0 12 0 H43 L75 76 L107 0 H138 Q150 0 150 12 L150 139 Q150 151 138 151 H109 V61 L88 111 Q84 121 75 121 Q66 121 62 111 L41 61 V151 H12 Q0 151 0 139 Z" fill="url(#neon)">
+<animateTransform attributeName="transform" type="translate" from="-28 0" to="0 0" dur="1.15s" fill="freeze"/>
+</path>
+<circle cx="155" cy="-12" r="7" fill="#53e9ff"><animate attributeName="opacity" values="0;1;.45;1" dur="1.8s" begin=".75s" fill="freeze"/></circle>
+</g>
+<g transform="translate(445 115)">
+<text class="name" x="0" y="60">Moinaktar</text>
+<text class="name" x="0" y="128" opacity=".72" font-size="42">Shaikh</text>
+<text class="sub" x="2" y="163">AI ENGINEER • BACKEND</text>
+<animateTransform attributeName="transform" type="translate" values="55 0;0 0" dur="1.15s" fill="freeze"/>
+<animate attributeName="opacity" values="0;1" dur=".8s" fill="freeze"/>
+</g>
+<circle cx="1045" cy="67" r="2.5" fill="#45e8ff"><animate attributeName="cy" values="67;53;67" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="1080" cy="224" r="2" fill="#8f6dff"><animate attributeName="cx" values="1080;1062;1080" dur="4s" repeatCount="indefinite"/></circle>
+</svg>
