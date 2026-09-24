@@ -158,7 +158,7 @@ const svg = [
   '</svg>'
 ].join("");
 
-await writeFile("assets/moinaktar_github_activity_animated.svg", svg, "utf8");
+await writeFile("assets/moinaktar_github_activity_animated_v2.svg", svg, "utf8");
 
 console.log("GitHub activity SVG generated successfully.");
 console.log({ contributions: totalContributions, repositories: user.repositories.totalCount, stars, currentStreak, languages: languages.map(([name]) => name) });
