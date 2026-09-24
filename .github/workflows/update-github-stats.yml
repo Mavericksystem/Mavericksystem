@@ -1,0 +1,29 @@
+name: Update GitHub Activity SVG
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate stats SVG
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: Mavericksystem
+        run: node scripts/generate-github-stats.mjs
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/moinaktar_github_activity_animated.svg
+          git diff --cached --quiet || git commit -m "Update GitHub activity stats"
+          git push
