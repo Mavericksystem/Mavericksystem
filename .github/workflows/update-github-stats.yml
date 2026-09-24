@@ -17,8 +17,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     concurrency:
-      group: github-activity-svg
-      cancel-in-progress: true
+      group: profile-updates
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,12 +37,5 @@ jobs:
           git add assets/moinaktar_github_activity_animated.svg assets/moinaktar_github_activity_animated_v2.svg
           git diff --cached --quiet && exit 0
           git commit -m "Update GitHub activity stats"
-
-      - name: Push with retry
-        run: |
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            echo "Push attempt $i failed; retrying after remote update..."
-            sleep $((i * 2))
-          done
-          exit 1
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
