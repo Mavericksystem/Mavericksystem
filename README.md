@@ -107,7 +107,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./assets/moinaktar_github_activity_animated.svg" width="100%" alt="GitHub activity" />
+  <img src="./assets/moinaktar_github_activity_animated_v2.svg" width="100%" alt="GitHub activity" />
 </p>
 
 <p align="center">
