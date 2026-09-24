@@ -3,6 +3,9 @@ name: Update GitHub Activity SVG
 on:
   push:
     branches: [main]
+    paths:
+      - "scripts/generate-github-stats.mjs"
+      - ".github/workflows/update-github-stats.yml"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -13,17 +16,33 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    concurrency:
+      group: github-activity-svg
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Generate stats SVG
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: Mavericksystem
         run: node scripts/generate-github-stats.mjs
+
       - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/moinaktar_github_activity_animated.svg
-          git diff --cached --quiet || git commit -m "Update GitHub activity stats"
-          git push
+          git add assets/moinaktar_github_activity_animated.svg assets/moinaktar_github_activity_animated_v2.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Update GitHub activity stats"
+
+      - name: Push with retry
+        run: |
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push attempt $i failed; retrying after remote update..."
+            sleep $((i * 2))
+          done
+          exit 1
