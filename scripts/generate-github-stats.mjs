@@ -110,7 +110,7 @@ const languageRows = languages.map(([name, count], index) => {
     '<text x="855" y="' + y + '" class="s">' + escapeXml(name) + "</text>",
     '<rect x="855" y="' + (y + 8) + '" width="235" height="7" rx="4" fill="#21363d"/>',
     '<rect x="855" y="' + (y + 8) + '" width="0" height="7" rx="4" fill="' + colors[index] + '">',
-    '<animate attributeName="width" values="0;' + width + ';' + width + '" dur="1.4s" repeatCount="indefinite" begin="' + (index * 0.2) + 's"/>',
+    '<animate attributeName="width" values="0;' + width + ';' + width + '" dur="0s" repeatCount="1" begin="' + (index * 0.2) + 's"/>',
     "</rect>"
   ].join("");
 }).join("");
@@ -152,7 +152,7 @@ const svg = [
   '<line x1="70" y1="245" x2="785" y2="245"/><line x1="70" y1="285" x2="785" y2="285"/><line x1="70" y1="325" x2="785" y2="325"/><line x1="70" y1="365" x2="785" y2="365"/>',
   '</g>',
   '<path d="' + line + ' L785 365 L70 365Z" fill="url(#chart)"/>',
-  '<path d="' + line + '" fill="none" stroke="#35d0b0" stroke-width="3" stroke-linecap="round" stroke-dasharray="1200" stroke-dashoffset="1200"><animate attributeName="stroke-dashoffset" from="1200" to="0" dur="2.8s" repeatCount="indefinite"/></path>',
+  '<path d="' + line + '" fill="none" stroke="#35d0b0" stroke-width="3" stroke-linecap="round" stroke-dasharray="1200" stroke-dashoffset="1200"><animate attributeName="stroke-dashoffset" from="1200" to="0" dur="5s" repeatCount="indefinite"/></path>',
   '<rect x="830" y="190" width="325" height="195" rx="16" fill="#07151b" fill-opacity=".25" stroke="#FCFFF5" stroke-opacity=".10"/>',
   '<text x="855" y="218" class="l">LANGUAGES</text>',
   languageRows,
