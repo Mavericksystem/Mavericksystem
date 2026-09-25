@@ -4,16 +4,14 @@
 
 ---
 
-## ⚡ About Me
+## Engineer working on engineering.
 
-- Backend Engineer with a "Security First, Scalability Next" philosophy
-- Building production grade Agentic AI and Data platforms
-- Working across web development, distributed systems, RAG, inference pipelines & cloud architecture
-- Based in Bengaluru, India
+- Building toward deeper understanding of Software, Infrastructure and AI with security first, scalability next mindset.
+- Currently looking for Ai Engineering, Backend and Full stack role
 
 ---
 
-## 🛠 Tech Stack
+
 
 <p align="center">
   <img src="./assets/moinaktar_tech_stack.svg" width="100%" alt="Moinaktar Shaikh — Tech Stack" />
@@ -29,7 +27,7 @@
   </a>
 </p>
 
-## 📊 GitHub Stats
+
 
 <p align="center">
   <img src="./assets/moinaktar_github_activity_animated_v2.svg" width="100%" alt="GitHub activity" />
