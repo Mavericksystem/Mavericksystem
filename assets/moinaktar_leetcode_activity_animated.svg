@@ -38,7 +38,7 @@
   <rect x="66" y="374" width="15" height="8" rx="4" fill="#6F5B38"/>
 
 <rect class="panel" x="780" y="198" width="378" height="188" rx="6"/><text x="804" y="228" class="label">CURRENT STREAK</text>
-<text x="804" y="270" class="num">19 DAYS</text>
+<text x="804" y="270" class="num">20 DAYS</text>
 <line x1="804" y1="292" x2="1134" y2="292" stroke="#1A1E23"/>
 <text x="804" y="319" class="label">MOST TOUCHED TOPICS</text>
 
