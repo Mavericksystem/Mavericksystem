@@ -14,7 +14,7 @@
 
 
 <p align="center">
-  <img src="./assets/moinaktar_tech_stack.svg?v=2" width="100%" alt="Moinaktar Shaikh — Tech Stack" />
+  <img src="./assets/moinaktar_tech_stack.svg?v=3" width="100%" alt="Moinaktar Shaikh — Tech Stack" />
 </p>
 
 ---
