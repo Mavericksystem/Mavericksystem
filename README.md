@@ -4,8 +4,8 @@
 
 ---
 
-## Engineer working on engineering.
-
+## About
+- Engineer working on engineering.
 - Building toward deeper understanding of Software, Infrastructure and AI with security first, scalability next mindset.
 - Currently looking for AI Engineering, Backend and Full stack role
 
