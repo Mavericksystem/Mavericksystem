@@ -4,7 +4,13 @@ const username = "Moinaktar";
 const endpoint = "https://leetcode.com/graphql";
 
 const query = `
-query LeetCodeProfile($username: String!, $year: Int) {
+query LeetCodeProfile(
+  $username: String!,
+  $year: Int,
+  $easyFilters: QuestionListFilterInput,
+  $mediumFilters: QuestionListFilterInput,
+  $hardFilters: QuestionListFilterInput
+) {
   matchedUser(username: $username) {
     username
     submitStats: submitStatsGlobal {
@@ -21,6 +27,9 @@ query LeetCodeProfile($username: String!, $year: Int) {
       fundamental { tagName problemsSolved }
     }
   }
+  availableEasy: questionList(categorySlug: "", limit: 1, skip: 0, filters: $easyFilters) { total }
+  availableMedium: questionList(categorySlug: "", limit: 1, skip: 0, filters: $mediumFilters) { total }
+  availableHard: questionList(categorySlug: "", limit: 1, skip: 0, filters: $hardFilters) { total }
 }`;
 
 const headers = {
@@ -41,7 +50,13 @@ async function fetchLeetCode() {
         headers,
         body: JSON.stringify({
           operationName: "LeetCodeProfile",
-          variables: { username, year: new Date().getUTCFullYear() },
+          variables: {
+            username,
+            year: new Date().getUTCFullYear(),
+            easyFilters: { difficulty: "EASY" },
+            mediumFilters: { difficulty: "MEDIUM" },
+            hardFilters: { difficulty: "HARD" }
+          },
           query
         })
       });
@@ -53,7 +68,7 @@ async function fetchLeetCode() {
       if (body.errors?.length) throw new Error(body.errors.map(e => e.message).join("; "));
       if (!body.data?.matchedUser) throw new Error(`Public profile not found: ${username}`);
 
-      return body.data.matchedUser;
+      return body.data;
     } catch (error) {
       lastError = error;
       if (attempt < 3) await new Promise(r => setTimeout(r, attempt * 2000));
@@ -62,11 +77,24 @@ async function fetchLeetCode() {
   throw lastError;
 }
 
-const user = await fetchLeetCode();
+const profile = await fetchLeetCode();
+const user = profile.matchedUser;
 
 const solved = Object.fromEntries(
   (user.submitStats?.acSubmissionNum ?? []).map(x => [x.difficulty, Number(x.count)])
 );
+
+const available = {
+  Easy: Number(profile.availableEasy?.total),
+  Medium: Number(profile.availableMedium?.total),
+  Hard: Number(profile.availableHard?.total)
+};
+
+for (const [difficulty, count] of Object.entries(available)) {
+  if (!Number.isFinite(count) || count <= 0) {
+    throw new Error(`Unable to read LeetCode's total available ${difficulty} problems.`);
+  }
+}
 
 const total = solved.All ?? (solved.Easy ?? 0) + (solved.Medium ?? 0) + (solved.Hard ?? 0);
 const easy = solved.Easy ?? 0;
@@ -83,17 +111,25 @@ const topics = [
   .sort((a, b) => Number(b.problemsSolved) - Number(a.problemsSolved))
   .slice(0, 3);
 
-const max = Math.max(easy, medium, hard, 1);
+const difficultyTotals = {
+  EASY: available.Easy,
+  MEDIUM: available.Medium,
+  HARD: available.Hard
+};
 const esc = s => String(s).replace(/[<>&'"]/g, c => ({
   "<":"&lt;", ">":"&gt;", "&":"&amp;", "'":"&apos;", '"':"&quot;"
 }[c]));
 
-const bar = (label, value, y, fill) => `
+const bar = (label, value, y, fill) => {
+  const availableCount = difficultyTotals[label];
+  const solvedWidth = Math.max(0, Math.min(628, Math.round(628 * value / availableCount)));
+  return `
   <text x="66" y="${y}" class="small">${label}</text>
-  <text x="720" y="${y}" text-anchor="end" class="num">${value}</text>
+  <text x="720" y="${y}" text-anchor="end" class="num">${value} / ${availableCount}</text>
   <rect x="66" y="${y + 12}" width="628" height="8" rx="4" fill="#1A1E23"/>
-  <rect x="66" y="${y + 12}" width="${Math.round(628 * value / max)}" height="8" rx="4" fill="${fill}"/>
+  <rect x="66" y="${y + 12}" width="${solvedWidth}" height="8" rx="4" fill="${fill}"/>
 `;
+};
 
 const topicWidths = topics.map(t => Math.min(150, Math.max(88, 24 + t.tagName.length * 7)));
 let tx = 804;
@@ -140,4 +176,4 @@ ${topicSvg}
 </svg>`;
 
 await writeFile("assets/moinaktar_leetcode_activity_animated.svg", svg, "utf8");
-console.log(JSON.stringify({ username, total, easy, medium, hard, streak, topics }, null, 2));
+console.log(JSON.stringify({ username, total, easy, medium, hard, available, streak, topics }, null, 2));
