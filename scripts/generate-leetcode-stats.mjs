@@ -27,9 +27,9 @@ query LeetCodeProfile(
       fundamental { tagName problemsSolved }
     }
   }
-  availableEasy: questionList(categorySlug: "", limit: 1, skip: 0, filters: $easyFilters) { total }
-  availableMedium: questionList(categorySlug: "", limit: 1, skip: 0, filters: $mediumFilters) { total }
-  availableHard: questionList(categorySlug: "", limit: 1, skip: 0, filters: $hardFilters) { total }
+  availableEasy: questionList(categorySlug: "", limit: 1, skip: 0, filters: $easyFilters) { totalNum }
+  availableMedium: questionList(categorySlug: "", limit: 1, skip: 0, filters: $mediumFilters) { totalNum }
+  availableHard: questionList(categorySlug: "", limit: 1, skip: 0, filters: $hardFilters) { totalNum }
 }`;
 
 const headers = {
