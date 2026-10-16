@@ -85,9 +85,9 @@ const solved = Object.fromEntries(
 );
 
 const available = {
-  Easy: Number(profile.availableEasy?.total),
-  Medium: Number(profile.availableMedium?.total),
-  Hard: Number(profile.availableHard?.total)
+  Easy: Number(profile.availableEasy?.totalNum),
+  Medium: Number(profile.availableMedium?.totalNum),
+  Hard: Number(profile.availableHard?.totalNum)
 };
 
 for (const [difficulty, count] of Object.entries(available)) {
