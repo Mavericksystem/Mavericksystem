@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="https://leetcode.com/u/Moinaktar/" target="_blank">
-    <img src="./assets/moinaktar_leetcode_activity_animated.svg" width="100%" alt="LeetCode activity" />
+    <img src="./assets/moinaktar_leetcode_activity_animated.svg?v=2" width="100%" alt="LeetCode activity — solved / total problems by difficulty" />
   </a>
 </p>
 
