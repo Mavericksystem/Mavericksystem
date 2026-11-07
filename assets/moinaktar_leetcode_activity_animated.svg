@@ -27,13 +27,13 @@
 
 
   <text x="66" y="314" class="small">MEDIUM</text>
-  <text x="720" y="314" text-anchor="end" class="num">109 / 2139</text>
+  <text x="720" y="314" text-anchor="end" class="num">109 / 2142</text>
   <rect x="66" y="326" width="628" height="8" rx="4" fill="#1A1E23"/>
   <rect x="66" y="326" width="32" height="8" rx="4" fill="#C4BCA8"/>
 
 
   <text x="66" y="362" class="small">HARD</text>
-  <text x="720" y="362" text-anchor="end" class="num">7 / 987</text>
+  <text x="720" y="362" text-anchor="end" class="num">7 / 988</text>
   <rect x="66" y="374" width="628" height="8" rx="4" fill="#1A1E23"/>
   <rect x="66" y="374" width="4" height="8" rx="4" fill="#6F5B38"/>
 
