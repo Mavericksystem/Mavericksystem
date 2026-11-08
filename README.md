@@ -30,12 +30,12 @@
 
 
 <p align="center">
-  <img src="./assets/moinaktar_github_activity_animated_v2.svg" width="100%" alt="GitHub activity" />
+  <img src="./assets/moinaktar_github_activity_animated_v2.svg?v=2" width="100%" alt="GitHub activity — current streak status" />
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/Moinaktar/" target="_blank">
-    <img src="./assets/moinaktar_leetcode_activity_animated.svg?v=2" width="100%" alt="LeetCode activity — solved / total problems by difficulty" />
+    <img src="./assets/moinaktar_leetcode_activity_animated.svg?v=3" width="100%" alt="LeetCode activity — solved / total problems by difficulty and current streak status" />
   </a>
 </p>
 
