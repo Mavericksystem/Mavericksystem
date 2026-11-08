@@ -39,6 +39,7 @@
 
 <rect class="panel" x="780" y="198" width="378" height="188" rx="6"/><text x="804" y="228" class="label">CURRENT STREAK</text>
 <text x="804" y="270" class="num">63 DAYS</text>
+<g transform="translate(1110 246) scale(1.25)" role="img" aria-label="Streak active"><path d="M12 2C9.8 5.4 10.2 7.2 7.8 9.4C5.8 11.2 5 13 5 15.2C5 19.1 8.1 22 12 22C15.9 22 19 19.1 19 15.2C19 11.8 16.9 9.6 14.6 7.1C14.5 10 13.3 11.2 12.2 11.9C12.8 8.4 11.9 5.2 12 2Z" fill="#E6A23C"/></g>
 <line x1="804" y1="292" x2="1134" y2="292" stroke="#1A1E23"/>
 <text x="804" y="319" class="label">MOST TOUCHED TOPICS</text>
 
