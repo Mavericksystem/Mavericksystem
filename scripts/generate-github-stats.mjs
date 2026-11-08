@@ -62,6 +62,20 @@ const days = user.contributionsCollection.contributionCalendar.weeks
   .flatMap(week => week.contributionDays)
   .sort((a, b) => a.date.localeCompare(b.date));
 
+const dateKey = date => new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Kolkata",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(date);
+
+const todayKey = dateKey(new Date());
+const yesterdayDate = new Date(`${todayKey}T00:00:00+05:30`);
+yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+const yesterdayKey = dateKey(yesterdayDate);
+const lastActiveDate = [...days].reverse().find(day => day.contributionCount > 0)?.date ?? null;
+const streakActive = lastActiveDate === todayKey || lastActiveDate === yesterdayKey;
+
 let currentStreak = 0;
 for (let i = days.length - 1; i >= 0; i--) {
   if (days[i].contributionCount > 0) currentStreak++;
@@ -145,6 +159,7 @@ const svg = [
   '<text x="588" y="148" class="n">' + stars.toLocaleString() + '</text>',
   '<text x="848" y="113" class="l">CURRENT STREAK</text>',
   '<text x="848" y="148" class="n">' + currentStreak + ' DAYS</text>',
+  '<g transform="translate(1110 125) scale(1.25)" role="img" aria-label="' + (streakActive ? 'Streak active' : 'Streak broken') + '"><path d="M12 2C9.8 5.4 10.2 7.2 7.8 9.4C5.8 11.2 5 13 5 15.2C5 19.1 8.1 22 12 22C15.9 22 19 19.1 19 15.2C19 11.8 16.9 9.6 14.6 7.1C14.5 10 13.3 11.2 12.2 11.9C12.8 8.4 11.9 5.2 12 2Z" fill="' + (streakActive ? '#E6A23C' : '#62666D') + '"/></g>',
   '<rect x="45" y="190" width="765" height="195" rx="16" fill="#0B0E13" fill-opacity=".25" stroke="#F2EFE7" stroke-opacity=".10"/>',
   '<text x="70" y="218" class="l">CONTRIBUTION FLOW · LAST 30 DAYS</text>',
   '<g stroke="#F2EFE7" stroke-opacity=".07">',
