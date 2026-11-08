@@ -102,6 +102,25 @@ const medium = solved.Medium ?? 0;
 const hard = solved.Hard ?? 0;
 const streak = user.userCalendar?.streak ?? null;
 
+const dateKey = date => new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Kolkata",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(date);
+
+const todayKey = dateKey(new Date());
+const yesterdayDate = new Date(`${todayKey}T00:00:00+05:30`);
+yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+const yesterdayKey = dateKey(yesterdayDate);
+const submissionCalendar = JSON.parse(user.userCalendar?.submissionCalendar || "{}");
+const lastActiveDate = Object.entries(submissionCalendar)
+  .filter(([, count]) => Number(count) > 0)
+  .map(([timestamp]) => dateKey(new Date(Number(timestamp) * 1000)))
+  .sort()
+  .at(-1) ?? null;
+const streakActive = lastActiveDate === todayKey || lastActiveDate === yesterdayKey;
+
 const topics = [
   ...(user.tagProblemCounts?.advanced ?? []),
   ...(user.tagProblemCounts?.intermediate ?? []),
@@ -169,6 +188,7 @@ ${bar("MEDIUM", medium, 314, "#C4BCA8")}
 ${bar("HARD", hard, 362, "#6F5B38")}
 <rect class="panel" x="780" y="198" width="378" height="188" rx="6"/><text x="804" y="228" class="label">CURRENT STREAK</text>
 <text x="804" y="270" class="num">${streak == null ? "—" : streak + " DAYS"}</text>
+<g transform="translate(1110 246) scale(1.25)" role="img" aria-label="${streakActive ? "Streak active" : "Streak broken"}"><path d="M12 2C9.8 5.4 10.2 7.2 7.8 9.4C5.8 11.2 5 13 5 15.2C5 19.1 8.1 22 12 22C15.9 22 19 19.1 19 15.2C19 11.8 16.9 9.6 14.6 7.1C14.5 10 13.3 11.2 12.2 11.9C12.8 8.4 11.9 5.2 12 2Z" fill="${streakActive ? "#E6A23C" : "#62666D"}"/></g>
 <line x1="804" y1="292" x2="1134" y2="292" stroke="#1A1E23"/>
 <text x="804" y="319" class="label">MOST TOUCHED TOPICS</text>
 ${topicSvg}
