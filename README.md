@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./assets/moinaktar_name_animated.svg" width="100%" alt="Hi I'm Moinaktar Shaikh — AI Engineer • Backend" />
-</p>
 
----
 
 ## About
 - Engineer working on engineering.
@@ -22,7 +18,7 @@
 ## 🏆 Certifications
 
 <p align="left">
-  <a href="https://www.credly.com/badges/3fa1dba9-a170-42a2-a7fc-cb2c1639b804/public_url">
+  <a href="">
     <img src="./assets/awscert.png" width="140" alt="AWS Certified Solutions Architect Associate">
   </a>
 </p>
@@ -43,12 +39,9 @@
 
 ## 🌐 Connect With Me
 
-<p>
-  <a href="https://www.linkedin.com/in/moinaktar-shaikh-7b3a33207/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
+<p></p>
   
-  <a href="mailto:moinaktarshaikh@gmail.com">
+  <a href="mavericksystem@duck.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
 </p>
