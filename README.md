@@ -39,9 +39,10 @@
 
 ## 🌐 Connect With Me
 
-<p></p>
-  
-  <a href="mavericksystem@duck.com">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
+<p>
+
+<a href="mailto:mavericksystem@duck.com">
+  <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
+</a>
+
 </p>
