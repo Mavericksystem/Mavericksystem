@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 722" width="1400" height="722" role="img" aria-labelledby="title desc"><title id="title">Moinaktar Shaikh — Tech Stack</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 722" width="1400" height="722" role="img" aria-labelledby="title desc"><title id="title">Tech Stack</title>
 <desc id="desc">Tech stack panel grouped into languages, domain knowledge, CI/CD, databases, frameworks, AI/ML tools and cloud/DevOps, styled to match the personal brand banner.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070A"/><stop offset=".58" stop-color="#0A0C10"/><stop offset="1" stop-color="#12151A"/></linearGradient>
@@ -16,7 +16,6 @@
 <rect x="28" y="28" width="1344" height="666" rx="24" fill="none" stroke="#C5BFAF" stroke-opacity=".12"/>
 <path d="M52 74V52H74 M1326 52H1348V74 M52 648V670H74 M1326 670H1348V648" fill="none" stroke="#B8A06A" stroke-opacity=".35" stroke-linecap="round"/>
 <text x="78" y="112" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#D9D4C7" text-rendering="geometricPrecision">Tech Stack</text>
-<text x="80" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="1.5" fill="#8C8574">~/moinaktar/stack.toml</text>
 <rect x="78" y="160" width="1244" height="1" fill="#B8A06A" fill-opacity=".16"/>
 <rect x="78" y="159" width="120" height="3" rx="1.5" fill="url(#goldH)"><animate attributeName="width" from="0" to="120" begin="0.2s" dur="0.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 1 .3 1"/></rect>
 <circle cx="1272" cy="98" r="4.5" fill="#B8A06A" fill-opacity=".9"/><circle cx="1290" cy="98" r="4.5" fill="#B8A06A" fill-opacity=".5"/><circle cx="1308" cy="98" r="4.5" fill="#B8A06A" fill-opacity=".25"/>
@@ -74,6 +73,5 @@
 <g><animate attributeName="opacity" from="0" to="1" begin="2.36s" dur=".5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="2.36s" dur=".5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><text x="755" y="594.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#DDD8CC">Kubernetes,</text></g>
 <g><animate attributeName="opacity" from="0" to="1" begin="2.42s" dur=".5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="2.42s" dur=".5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><text x="890" y="594.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#DDD8CC">Linux,</text></g>
 <g><animate attributeName="opacity" from="0" to="1" begin="2.48s" dur=".5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="2.48s" dur=".5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/><text x="980" y="594.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#DDD8CC">Postman,</text></g>
-<text x="78" y="674" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8C8574">MOINAKTAR SHAIKH / 02</text>
 <text x="1325" y="674" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.2" fill="#8C8574">ENGINEERING • SYSTEMS • AI</text>
 </svg>
